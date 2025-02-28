@@ -1,0 +1,9 @@
+project create : npm init -y  
+
+"body-parser": "^1.20.3",  get data from user
+    "express": "^4.21.2",  apis 
+    "nodemon": "^3.1.9"  server run
+
+
+  name:  testuser
+
