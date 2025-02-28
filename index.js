@@ -63,6 +63,10 @@ dbconnection.once('open',()=>{
 console.log(' mongo db connected')
 })
 
+app.get('/',(req,res)=>{
+    res.send('work')
+})
+
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 // app.use(formData.parse());
